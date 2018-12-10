@@ -1,0 +1,92 @@
+/***BASE STYLES****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color:#ffffff;
+  color:
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.color {
+  color:#77a466;
+}
+
+header, footer, section, article, nav, aside, div {
+   border: 1px solid #000000;
+   padding: 5px;
+   margin: 10px;
+}
+
+/*****GRID*****/
+.full-width {
+  width:1240px;
+  margin:0 auto;
+}
+
+.half-width {
+  width:620px;
+  float:left;
+}
+
+.third-width {
+  width:400px;
+  float:left;
+  height:215px;
+}
+
+/****HEADER****/
+
+header {
+  height:110px;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 30px;
+  text-transform:uppercase;
+  color:#000000;
+  float:left;
+  display:inline-block;
+}
+
+nav {
+  float:right;
+}
+
+nav ul li {
+  display:inline-block;
+}
+
+Nav ul li a {
+    font-size: 14px;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: #77a466;
+    margin-right:10px;
+}
+/*****TOP SECTION****/
+#top {
+  height:475px;
+}
+
+#top #topsectionimage {
+  height:290px;
+  width:1200px;
+  clear:both;
+  margin:0 auto;
+  border:5px solid #77a466;
+}
+
+/*****BOTTOM SECTION*****?
+
+/*****FOOTER*****/
+
+footer {
+  clear:both;
+}
